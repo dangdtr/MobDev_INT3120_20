@@ -1,0 +1,6 @@
+<AnalogClock
+    android:id="@+id/tab1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_centerHorizontal="true"
+    xmlns:android="http://schemas.android.com/apk/res/android" />

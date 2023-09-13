@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textview_hw"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="72dp"
+        android:text="@string/welcome"
+        android:textSize="24sp"/>
+
+    <TextView
+        android:id="@+id/textview_ratio_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textview_hw"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="45dp"
+        android:text="@string/please_give_gen"
+        android:textSize="15sp" />
+
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="193dp"
+        android:layout_height="108dp"
+        android:layout_below="@id/textview_ratio_title"
+        android:layout_alignStart="@+id/textview_ratio_title"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="89dp">
+
+        <RadioButton
+            android:id="@+id/radioButton_PayPal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/paypal" />
+
+        <RadioButton
+            android:id="@+id/radioButton_Direct"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/direct" />
+    </RadioGroup>
+
+
+    <NumberPicker
+        android:id="@+id/np"
+        android:layout_width="68dp"
+        android:layout_height="177dp"
+        android:layout_alignTop="@+id/radioGroup"
+        android:layout_marginStart="71dp"
+        android:layout_marginTop="21dp"
+        android:layout_toEndOf="@+id/radioGroup" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="365dp"
+        android:layout_height="48dp"
+        android:layout_below="@id/np"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="12dp"
+        android:layout_marginBottom="214dp" />
+
+
+<!--    <Button-->
+<!--        android:id="@+id/button_next_rela"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_below="@id/progressBar"-->
+<!--        android:layout_marginStart="16dp"-->
+<!--        android:layout_marginTop="-100dp"-->
+<!--        android:text="@string/donate" />-->
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="240dp"
+        android:layout_marginBottom="50dp"
+        android:text="@string/total_so_far" />
+
+    <Button
+        android:id="@+id/button_next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="48dp"
+        android:layout_marginBottom="36dp"
+        android:text="@string/donate" />
+
+    <EditText
+        android:id="@+id/editText_amount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button_next"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="39dp"
+        android:layout_marginBottom="51dp"
+        android:autofillHints="1000"
+        android:ems="10"
+        android:inputType="text"
+        app:layout_constraintBottom_toBottomOf="@+id/textView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textView_amount"
+        tools:ignore="LabelFor" />
+
+    <TextView
+        android:id="@+id/textView_amount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button_next"
+        android:layout_marginBottom="62dp"
+        android:layout_marginStart="48dp"
+        android:text="@string/amount"
+        android:textSize="20sp" />
+
+</RelativeLayout>

@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">slide4</string>
+    <string name="direct">Direct</string>
+    <string name="paypal">PayPal</string>
+    <string name="hello_world">Hello World</string>
+    <string name="welcome">Welcome Homer</string>
+    <string name="please_give_gen">Please give Generously</string>
+    <string name="donate">Donate</string>
+    <string name="amount">Amount</string>
+    <string name="total_so_far">Total so Far</string>
+
+
+</resources>

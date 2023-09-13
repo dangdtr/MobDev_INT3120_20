@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/textview_hw"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="52dp"
+            android:layout_marginBottom="12dp"
+            android:text="@string/welcome"
+            android:textSize="24sp"
+            android:layout_span="2"/>
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/textview_ratio_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:text="@string/please_give_gen"
+            android:textSize="15sp"/>
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioGroup
+            android:id="@+id/radioGroup"
+            android:layout_width="112dp"
+            android:layout_height="117dp"
+            android:layout_marginStart="16dp">
+
+            <RadioButton
+                android:id="@+id/radioButton_PayPal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/paypal" />
+
+            <RadioButton
+                android:id="@+id/radioButton_Direct"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/direct" />
+
+        </RadioGroup>
+
+        <NumberPicker
+            android:id="@+id/np"
+            android:layout_width="58dp"
+            android:layout_height="177dp"
+            android:layout_marginTop="100dp" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="161dp"
+            android:layout_height="62dp"
+            android:layout_marginStart="16dp"
+
+            android:layout_marginBottom="50dp" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/textView_amount"
+            android:layout_width="191dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="16dp"
+            android:text="@string/amount"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/editTextText"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="67dp"
+            android:ems="10"
+            android:inputType="text" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/button_next"
+            android:layout_width="62dp"
+            android:layout_height="50dp"
+            android:text="@string/donate" />
+
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="48dp"
+            android:text="@string/total_so_far"/>
+
+    </TableRow>
+
+</TableLayout>

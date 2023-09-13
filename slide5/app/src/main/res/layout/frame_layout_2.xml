@@ -1,0 +1,35 @@
+<LinearLayout
+    android:id="@+id/tab2"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_marginTop="100dp"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+    <TextView
+        android:id="@+id/caption1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#ff0000ff"
+        android:text="Person Name"
+        android:textSize="20px"
+        >
+    </TextView>
+    <EditText
+        android:id="@+id/txtPerson"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="txtPerson"
+        android:textSize="18sp"
+        >
+    </EditText>
+    <Button
+        android:id="@+id/btnGo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Go"
+        >
+    </Button>
+</LinearLayout>
+
+

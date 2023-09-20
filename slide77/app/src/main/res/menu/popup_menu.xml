@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    tools:ignore="ExtraText"
+    tools:context="com.example.slide6.MainActivity">
+    <item
+        android:id="@+id/searchIntent"
+        android:title="searchIntent" />
+
+    <item
+        android:id="@+id/phoneIntent"
+        android:title="phoneIntent" />
+
+    <item
+        android:id="@+id/smsIntent"
+        android:title="smsIntent" />
+
+    <item
+        android:id="@+id/pictureIntent"
+        android:title="pictureIntent" />
+
+    <item
+        android:id="@+id/contactsIntent"
+        android:title="contactsIntent" />
+
+    <item
+        android:id="@+id/geoIntent"
+        android:title="geoIntent" />
+
+    <item
+        android:id="@+id/musicIntent"
+        android:title="musicIntent" />
+
+
+</menu>

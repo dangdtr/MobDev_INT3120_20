@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    tools:ignore="ExtraText"
+    tools:context="com.example.slide6.MainActivity">
+    <item
+        android:id="@+id/item2_ctx"
+        android:title="@string/item2"
+        android:icon="@drawable/ic_launcher_foreground" />
+
+    <item
+        android:id="@+id/item3_ctx"
+        android:title="@string/item3"
+        android:icon="@drawable/ic_launcher_foreground" />
+    <item
+        android:id="@+id/item4_ctx"
+        android:title="@string/item4"
+        android:icon="@drawable/ic_launcher_foreground" />
+</menu>

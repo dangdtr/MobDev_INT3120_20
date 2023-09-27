@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">slide8</string>
+    <string name="send_broadcast_to_system">Send Broadcast to system</string>
+    <string name="send_broadcast">Send Broadcast</string>
+</resources>
